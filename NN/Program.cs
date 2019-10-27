@@ -110,7 +110,7 @@ namespace NN
 
             Retry:
             epoch++;
-            for (int i = 0; i < 9; i++)  // very important, do NOT train for only one example
+            for (int i = 0; i < 9; i++)
             {
                 // 1) forward propagation (calculates output)
                 outputNeuron.inputs = fillIN(inputs[i, 0], inputs[i, 1], inputs[i, 2], hiddenNeurons);
