@@ -131,7 +131,7 @@ namespace NN
                     hiddenNeuron.adjustWeights();
             }
 
-            if (epoch < 1000)
+            if (epoch < 10000)
                 goto Retry;
 
             Console.WriteLine();
